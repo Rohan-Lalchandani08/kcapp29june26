@@ -22,7 +22,7 @@ app.post("/sr", (req, res)=>{
 });
 
 app.get("/gr", (req, res)=>{
-	let url="mongodb://0.0.0.0:27017";
+	let url="mongodb+srv://lalchandanirohan8_db_user:H9BqRcIFpzDsmBNW@cluster0.xte8xby.mongodb.net/?appName=Cluster0";
 	let con = new MongoClient(url);
 	let db = con.db("kc29june26");
 	let coll = db.collection("reviews");
